@@ -35,7 +35,7 @@ void setup() {
 void loop(){
   
   if (button_state == 0){
-    minimum = analogRead(IR_sens) + 5;
+    minimum = analogRead(IR_sens);
     maximum = minimum + 100;
   }
 
